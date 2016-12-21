@@ -37,4 +37,8 @@ public class Turn {
     public boolean maxNumberOfTurnsExceeded() {
         return turn > MAX_NUMBER_OF_TURNS;
     }
+
+    public PlayerId getCurrentPlayer() {
+        return currentPlayer;
+    }
 }

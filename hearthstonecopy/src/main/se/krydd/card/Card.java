@@ -39,7 +39,7 @@ public abstract class Card {
 
     public abstract HeroClass heroClass();
 
-    protected PlayerId getOwner() {
+    public PlayerId getOwner() {
         return owner;
     }
 }

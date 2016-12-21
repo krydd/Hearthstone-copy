@@ -1,10 +1,10 @@
 package se.krydd.game.engine;
 
+import se.krydd.card.Card;
 import se.krydd.game.Board;
 import se.krydd.game.HeroClass;
 import se.krydd.game.Player;
 import se.krydd.game.PlayerId;
-import se.krydd.util.RandomUtil;
 
 public class GameEngine {
     private final Board board;
@@ -24,11 +24,29 @@ public class GameEngine {
     }
 
     public void nextTurn() {
+        endTurnPhase();
         turn.nextTurn();
         if (turn.maxNumberOfTurnsExceeded()) {
             //TODO: Draw game
         }
+        newTurnPhase();
+    }
 
+    public void endTurnPhase() {
+    }
+
+    private void newTurnPhase() {
+
+    }
+
+    public void playCard(Card card) {
+        if (card.getOwner() != turn.getCurrentPlayer()) {
+            return;
+        }
+
+    }
+
+    public void attackWithEntity() {
 
     }
 }
