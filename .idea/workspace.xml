@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46785bea-b379-4b57-a497-229d47bac962" name="Default" comment="More structure">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/boardentity/heropower/DruidHeroPower.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/boardentity/heropower/HeroPower.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/boardentity/heropower/StandardHeroPowers.java" />
-      <change type="DELETED" beforePath="C:\Users\Olle\IdeaProjects\Hearthstone-copy\hearthstonecopy\src\main\se\krydd\card\heropower\HeroPower.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/card/Card.java" afterPath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/card/Card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/game/engine/GameEngine.java" afterPath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/game/engine/GameEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/game/Player.java" afterPath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/game/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/game/engine/Turn.java" afterPath="$PROJECT_DIR$/hearthstonecopy/src/main/se/krydd/game/engine/Turn.java" />
+    <list default="true" id="46785bea-b379-4b57-a497-229d47bac962" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hearthstone-copy.iws" />
@@ -841,7 +833,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459902937973</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="More structure">
+      <created>1482279095817</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1482279095817</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
